@@ -1,4 +1,5 @@
 (function() {
+
     function randomizeArray(size) {
         const array = [];
         const valuesToRandom = [1, -1];
@@ -206,8 +207,4 @@
 	});
     createExperiment(2, 50000, randomizeArray(50));
 
-    //myChart.data.datasets[0].data = [1,2,2,2,2,2,2,2]
-    //myChart.update()
-
-     
 })();
